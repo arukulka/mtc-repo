@@ -1,0 +1,9 @@
+terraform {
+  backend "remote" {
+    organization = "test2020_13"
+
+    workspaces {
+      name = "mtc-dev"
+    }
+  }
+}
